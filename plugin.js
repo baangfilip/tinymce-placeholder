@@ -69,7 +69,7 @@ tinymce.PluginManager.add('placeholder', function(editor, url) {
             .mce-panel.plugin-placeholder:before{ \
                 margin-left:8px; \
             } \
-            #not-inline_ifr { z-index: 2; } \
+            .plugin-placeholder iframe { z-index: 2; } \
             .plugin-placeholder.empty:before{ \
                 display:block; \
             }";
