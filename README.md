@@ -11,4 +11,4 @@ tinymce.init({
 });
 ```
 
-Based on https://github.com/angular-ui/ui-tinymce/issues/197
+Based on https://github.com/angular-ui/ui-tinymce/issues/197 @human-a
