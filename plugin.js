@@ -7,6 +7,7 @@
  * @author baangfilip.
  * @since  2018-06-30
  * @version 0.1
+ * @preserve
  */
 tinymce.PluginManager.add('placeholder', function(editor, url) {
 
