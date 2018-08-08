@@ -10,3 +10,5 @@ tinymce.init({
   plugins: ['placeholder'],
 });
 ```
+
+Based on https://github.com/angular-ui/ui-tinymce/issues/197 @human-a
