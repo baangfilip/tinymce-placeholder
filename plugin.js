@@ -42,7 +42,7 @@ tinymce.PluginManager.add('placeholder', function(editor, url) {
 	 * When selectionchange or init happened check if placeholder should show or hide
 	 */
 	editor.on('selectionchange init', function ( evt ) {
-		if(editor.getContent() == ''){
+		if(editor.getContent() == '' && editor.getContent({ format: 'text' }) != String.fromCharCode(160)){
             element.classList.add("empty");
         }else{
             element.classList.remove("empty");
